@@ -18,9 +18,12 @@ def solution(jobs):
             heapq.heappush(waitQ, (DUR, REQ)) #소요시간 기준 정렬하기위해 순서 바꿔넣기
         
         # 실행
-        now = heapq.heappop(waitQ)
-        done.append(now[1]-time) #요청~완료까지 걸린 시간 기록
-        time += now[1] #시간 업데이트
+        if waitQ:
+            DUR, REQ = heapq.heappop(waitQ)
+            time += DUR
+            done.append(time-REQ)
+        elif jobsQ: #대기큐 빈 상태 (=현재 실행가능한 작업 없으니 시간점프 필요)
+            time = jobsQ[0][0]
         
     avr = sum(done) // len(done)
     
