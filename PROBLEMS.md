@@ -39,3 +39,11 @@
 * [level 2] H-Index
 * [level 3] 정수 삼각형
 * [level 3] 네트워크
+
+## W6 (26-09-w4)
+
+* [level 2] 배달
+* [level 3] 가장 먼 노드
+* [level 3] 단어 변환
+* [level 3] 등굣길
+* [level 2] 피로도
