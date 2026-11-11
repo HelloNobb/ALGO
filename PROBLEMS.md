@@ -47,3 +47,12 @@
 * [level 3] 단어 변환
 * [level 3] 등굣길
 * [level 2] 피로도
+
+## W7 (26-11-w2) - LeetCode
+
+* [Easy] 70. Climbing Stairs
+* [Medium] 198. House Robber
+* [Medium] 63. Unique Paths II
+* [Medium] 912. Sort an Array
+* [Medium] 98. Validate Binary Search Tree
+* (보너스) [Medium] 322. Coin Change
